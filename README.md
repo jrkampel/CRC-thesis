@@ -1,14 +1,17 @@
-Elucidating Pathways Underlying Sporadic and Lynch Syndrome Forms of Colorectal Cancer
+#Elucidating Pathways Underlying Sporadic and Lynch Syndrome Forms of Colorectal Cancer
 This repository contains code to analyze clinical and genetic data related to colorectal cancer (CRC), aiming to identify significant genes, conduct statistical tests, and triage data from external sources like cBioPortal.
-Contents
+
+##Contents
 Clinical analysis.R: Script to analyze clinical data, which includes patient information such as their age, CRC localization, and TNM stage.
 Finding_genes.R: Script to identify and analyze genes associated with CRC, potentially identifying significant genetic mutations.
 Fishers_test_julia.R: Performs Fisher's exact test to find statistical significant associations
 cbioportal_traige_CRC.R: Script to handle CRC data from cBioPortal, filtering or analyzing it for relevant features.
-Prerequisites
+
+##Prerequisites
 R: The primary language for analysis scripts.
 Required Libraries: Specific libraries used within each R script (e.g., dplyr, ggplot2) should be installed.
 
+##Codes
 Clinical Analysis:
 Run Clinical analysis.R to analyze clinical aspects of the CRC dataset. Results will include tables and visualizations related to patient characteristics.
 Finding Genes:
